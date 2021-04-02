@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "461485860395",
+    "firebase_url": "https://kings-rental.firebaseio.com",
+    "project_id": "kings-rental",
+    "storage_bucket": "kings-rental.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461485860395:android:b9c999694273d4f9292c6e",
+        "android_client_info": {
+          "package_name": "com.example.kingsrental"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461485860395-vb5gnjs91sjnk80kb7j60sqj016mibdf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kingsrental",
+            "certificate_hash": "88ee7aa722658c6a4122c4dcbe42571ff4b6da36"
+          }
+        },
+        {
+          "client_id": "461485860395-rtv4pb1h91o2rd69e40b4mlghhii0cd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-uwH9FotFqC1KkMxYoLdlxoCfU0UfiWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461485860395-rtv4pb1h91o2rd69e40b4mlghhii0cd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

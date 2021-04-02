@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Splash">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logorent"
+        android:transitionName="logo_image"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="59dp"
+        android:text="KINGS RENTAL"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:transitionName="logo_text"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/name"
+        android:layout_marginTop="5dp"
+        android:text="Let's Rent Not Buy"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#0E0E0E"
+        android:gravity="center_horizontal" />
+
+
+</RelativeLayout>
